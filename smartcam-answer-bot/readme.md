@@ -34,3 +34,51 @@ This project demonstrates a practical implementation of visual question answerin
    ```bash
    git clone https://github.com/yourusername/smartcam-answer-bot.git
    cd smartcam-answer-bot
+ 
+## Quick setup (Windows)
+
+1. (Optional) If you want to use the included virtual environment, activate it:
+
+PowerShell:
+
+```powershell
+.\smartcam-env\Scripts\Activate.ps1
+```
+
+Command Prompt:
+
+```bat
+.\smartcam-env\Scripts\activate.bat
+```
+
+2. Install required packages (if not using the included venv or after activation):
+
+```powershell
+pip install -r requirements.txt
+```
+
+3. Run the GUI:
+
+```powershell
+python smartcam_gui.py
+```
+
+Or run the on-demand script:
+
+```powershell
+python smartcam_on_demand.py
+```
+
+## Notes
+
+- A ready-made virtual environment is included at `smartcam-env/`. It's provided for convenience but may contain platform-specific binary wheels. If you see import errors, recreate a fresh venv and install `requirements.txt`.
+- The YOLOv8 weights file `yolov8n.pt` is included for immediate testing. Replace it with custom weights by updating the script paths.
+
+## Troubleshooting
+
+- If the camera doesn't open, try changing the camera index (0, 1, ...) in the script.
+- If TTS output is silent, ensure `pyttsx3` dependencies are available in the environment.
+
+## Contributing
+
+Contributions are welcome — open an issue or a PR with changes or feature requests.
