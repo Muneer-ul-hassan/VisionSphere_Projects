@@ -5,26 +5,42 @@
 A multimodal AI assistant that can see what you see, remember what you've seen, and converse naturally about the world around you.
 
 > **Note for recruiter:** You can watch the full multimodal AI demonstration video below, featuring real-time vision, memory, and conversation:
-> 
-> <video src="demo.mp4" controls width="100%"></video>
+
+https://github.com/Muneer-ul-hassan/VisionSphere_Projects/raw/main/VisionSphere_Astra/demo.mp4
 
 ---
 
-## 🌟 Features
+## 🌟 Core Features
 
-### Current Capabilities
-- 📹 **Live Camera Feed** - Real-time object detection with YOLOv8
-- 💬 **Natural Conversation** - Chat with Astra about what it sees
-- 🧠 **Visual Memory** - Remembers scenes and conversations
-- 🤖 **Local LLM** - Runs on your machine with Ollama (no cloud required)
-- 🌐 **Web UI** - Modern, responsive dashboard
+### 👁️ Always-On Contextual Vision
+- **Real-Time Object Detection**: Powered by a custom **YOLOv8** implementation with Non-Maximum Suppression (NMS) for precise, duplicate-free entity tracking.
+- **Continuous Scene Awareness**: Astra constantly monitors the camera feed and seamlessly injects real-time visual context into every conversation, allowing it to "see" without you having to prompt it.
 
-### Coming Soon
-- 🎤 Voice input/output (Whisper STT + TTS)
-- 📝 OCR text reading
-- 🔍 CLIP-based scene understanding
-- ⚡ Proactive assistance
-- 📱 Multi-device support
+### 🧠 Advanced Persistent Memory (ChromaDB)
+- **Semantic Conversation History**: Stores and retrieves past conversations using vector embeddings, ensuring Astra remembers your preferences, identity, and past discussions.
+- **Visual Memory Logging**: Automatically logs significant visual events (e.g., "saw a person at 10:45 AM") allowing you to query past visual states.
+
+### 🗣️ Natural Multimodal Interaction
+- **Seamless Context Blending**: Combines explicit user text, implied visual state, and long-term memory into a unified prompt for the LLM.
+- **Instant Audio Feedback**: Built-in Text-to-Speech (TTS) integration allows Astra to speak its answers instantly.
+- **Voice Input Ready**: Integration for STT (Speech-to-Text) allowing you to talk to Astra naturally.
+
+### 🔒 Privacy-First Local Architecture
+- **100% Local Execution**: Runs entirely on your machine without any cloud dependencies.
+- **Ollama + Gemma**: Uses powerful local LLMs (like Google's Gemma) ensuring your camera feed and personal conversations never leave your device.
+- **Optimized for CPU/GPU**: Built with asynchronous FastAPI endpoints to ensure smooth video streaming without bottlenecking the LLM.
+
+### 🌐 Modern React Dashboard
+- **Live Video Streaming**: Real-time WebSocket connection for low-latency video feed.
+- **Dynamic Data Visualization**: Live counters and tracking statistics for detected objects.
+- **Unified Interface**: Chat, memory explorer, and settings integrated into a single, sleek dark-mode UI.
+
+---
+
+## 🚀 Coming Soon
+- 📝 **OCR integration** for reading text from the camera
+- 🔍 **CLIP-based scene understanding** for complex visual reasoning
+- ⚡ **Proactive Alerts** (e.g., "You left your keys on the table")
 
 ---
 
