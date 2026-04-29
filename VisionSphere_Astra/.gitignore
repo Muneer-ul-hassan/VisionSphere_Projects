@@ -1,0 +1,26 @@
+# Environments
+backend/venv/
+venv/
+.env
+
+# Node
+frontend/node_modules/
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Models (we don't want to push huge models)
+backend/yolov8n.pt
+yolov8n.pt
+*.pt
+
+# Data
+backend/data/
+
+# Misc
+.DS_Store
