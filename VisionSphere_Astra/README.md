@@ -6,7 +6,7 @@ A multimodal AI assistant that can see what you see, remember what you've seen, 
 
 > **Note for recruiter:** You can watch the full multimodal AI demonstration video below, featuring real-time vision, memory, and conversation:
 
-https://github.com/Muneer-ul-hassan/VisionSphere_Projects/blob/main/VisionSphere_Astra/demo.mp4
+[![Watch the video](demo_thumbnail.jpg)](https://github.com/Muneer-ul-hassan/VisionSphere_Projects/blob/main/VisionSphere_Astra/demo.mp4)
 
 ---
 
