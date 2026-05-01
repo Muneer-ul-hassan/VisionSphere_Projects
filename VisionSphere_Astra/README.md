@@ -4,9 +4,13 @@
 
 A multimodal AI assistant that can see what you see, remember what you've seen, and converse naturally about the world around you.
 
-> **Note for recruiter:** You can watch the full multimodal AI demonstration video below, featuring real-time vision, memory, and conversation:
+## 🎥 Demo Video
 
-[![Watch the video](demo_thumbnail.jpg)](https://github.com/Muneer-ul-hassan/VisionSphere_Projects/blob/main/VisionSphere_Astra/demo.mp4)
+Watch the full real-time multimodal AI demonstration:
+
+[![VisionSphere Astra Demo](demo_thumbnail.jpg)](https://youtu.be/bxeO40QfUrw)
+
+Direct link: https://youtu.be/bxeO40QfUrw
 
 ---
 
@@ -14,7 +18,7 @@ A multimodal AI assistant that can see what you see, remember what you've seen, 
 
 ### 👁️ Always-On Contextual Vision
 - **Real-Time Object Detection**: Powered by a custom **YOLOv8** implementation with Non-Maximum Suppression (NMS) for precise, duplicate-free entity tracking.
-- **Continuous Scene Awareness**: Astra constantly monitors the camera feed and seamlessly injects real-time visual context into every conversation, allowing it to "see" without you having to prompt it.
+- **Continuous Scene Awareness**: Astra constantly monitors the camera feed and seamlessly injects real-time visual context into every conversation, allowing it to "see" without you having to prompt it every time.
 
 ### 🧠 Advanced Persistent Memory (ChromaDB)
 - **Semantic Conversation History**: Stores and retrieves past conversations using vector embeddings, ensuring Astra remembers your preferences, identity, and past discussions.
